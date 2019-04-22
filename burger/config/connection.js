@@ -4,7 +4,8 @@ var connection = mysql.createConnection({
     port: "8000",
     user: "root",
     password: "root",
-    database:"burgers_db"
+    database:"burgers_db",
+    socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 });
 
 
