@@ -16,7 +16,7 @@ $(function() {
       function() {
         //console.log("changed sleep to", newDevoured);
         // Reload the page to get the updated list
-        loburgerion.reload();
+        location.reload();
       }
     );
   });
