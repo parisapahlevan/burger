@@ -79,7 +79,7 @@ var orm = {
     queryString += " WHERE ";
     queryString += condition;
 
-    console.log(queryString);
+    console.log("HI Z THIS IS ME: ",queryString);
     connection.query(queryString, function(err, result) {
       if (err) {
         throw err;

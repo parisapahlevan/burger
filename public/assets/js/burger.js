@@ -2,10 +2,8 @@
 $(function() {
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
-    //var newDevoured = $(this).data("newsleep");
-
     var newDevouredtate = {
-      devoured: true
+      devoured: ($(this).data("newsleep") === 1) ? false : true
     };
 
     // Send the PUT request.
